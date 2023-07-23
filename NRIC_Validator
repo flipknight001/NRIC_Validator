@@ -74,7 +74,7 @@ Public Function validateNRIC(ByVal NRIC As String) As Boolean
 
     If FirstLetter = "S" Or FirstLetter = "T" Then
         Alphabets = ST_ALPHABET
-    ElseIf FirsrLetter = "M" Then
+    ElseIf FirstLetter = "M" Then
         Alphabets = M_ALPHABET
     Else
         Alphabets = FG_ALPHABET
